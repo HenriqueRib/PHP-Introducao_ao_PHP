@@ -1,0 +1,9 @@
+<?php
+
+$idadelista = array(15 , 16 , 18 , 13 ,19 ) ;
+
+$listamelhor = [ 15 , 16 , 18 , 13 ,19 ] ;
+
+$primeiraidade = $listamelhor [0] ;
+
+echo "$primeiraidade" ;
