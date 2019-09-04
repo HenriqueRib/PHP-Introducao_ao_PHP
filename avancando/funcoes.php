@@ -1,4 +1,9 @@
 <?php
+function titularComLetrasMaiusculas ( &$conta)
+{
+    $conta['titular'] = strtoupper($conta['titular']);
+}
+
 // Funçao que retorna um valor
 
 //function soma($x){
@@ -17,10 +22,10 @@ function sacar($conta , $valorasacar){
 }
 // Sub rotinas
 function exibemensagem ($mensagem){
-    echo $mensagem . PHP_EOL ;
+    echo $mensagem . '<br>' ;
 }
 // Sub rotinas sem parametro
 function apresentação (){
-    echo 'Seja bem-vindo ao nosso Banco' . PHP_EOL . PHP_EOL;
+    echo 'Seja bem-vindo ao nosso Banco' . '<br>';
 }
 
